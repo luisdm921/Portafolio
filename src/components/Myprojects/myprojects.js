@@ -4,16 +4,18 @@ import quote from "../../img/quote.jpg";
 import todo from "../../img/todo.jpg";
 import coffee from "../../img/coffe.jpg";
 import music from "../../img/festival.jpg";
+import bookShop from "../../img/book.jpg"
 import CardProject from "../Myprojects/cardProject";
 export default function MyProjects() {
   const proyects = [
     {
       id: 1,
-      title: "Weather",
-      description: "A web application where you can find your city weather",
-      image: weather,
-      link: "https://luisdm-weather.netlify.app/",
+      title: "BookShop",
+      description: "Find your favorite book and get it now!!",
+      image: bookShop,
+      link: "https://booksnookbyluis.netlify.app/",
     },
+    
     {
       id: 2,
       title: "Quote",
@@ -38,10 +40,17 @@ export default function MyProjects() {
     },
     {
       id: 5,
-      title: "festival",
+      title: "Festival",
       description: "Manage your festival",
       image: music,
       link: "https://musicfestbyluis.netlify.app/",
+    },
+    {
+      id: 6,
+      title: "Weather",
+      description: "A web application where you can find your city weather",
+      image: weather,
+      link: "https://luisdm-weather.netlify.app/",
     },
   ];
   return (

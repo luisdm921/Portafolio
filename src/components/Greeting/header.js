@@ -3,7 +3,6 @@ import {Link}from 'react-scroll';
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
-  const [button, setButton] = useState("");
 
   const changeBackground = () => {
     if (window.scrollY >= 1) {
@@ -12,15 +11,7 @@ export default function Header() {
       setNavbar(false);
     }
   };
-  const changeButton = ()=>{
-    if (window.scrollY >= 80) {
-      setButton("Greeting");
-    } else {
-      setButton("");
-    }
-  }
   window.addEventListener("scroll", changeBackground);
-  window.addEventListener("scroll", changeButton);
   return (
     <div className={navbar ? "main-header active" : "main-header"}>
       <div className="menu">
