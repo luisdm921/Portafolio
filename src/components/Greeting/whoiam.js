@@ -18,7 +18,7 @@ export default function Whoiam() {
               <br />
             </span>
             <span className="description">
-              Thank you so much for be here and take a moment to visit my web-page, please go ahead and know me!!. 
+              Thank you so much for be here and take a moment to visit my web-page, please go ahead and know me!!!. 
             </span>
           </p>
           <div className="buttons-links">
