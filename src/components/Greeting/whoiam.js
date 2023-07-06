@@ -1,6 +1,6 @@
 import {FaLinkedin, FaFolder, FaGithub} from "react-icons/fa";
 import yo from "../../img/avatar2.png"
-import pdf from "../../CV/LuisFranciscoDominguezMelendezCV.pdf"
+import pdf from "../../CV/Luis-Francisco-Dominguez-Melendez-CV.pdf"
 export default function Whoiam() {
   return (
     <div className="main-hello">
